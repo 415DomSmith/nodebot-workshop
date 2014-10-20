@@ -37,6 +37,7 @@ GND  o-----'
 - You'll need to convert that value into a useful temperature reading...
 - To create an enpoint, pass dnode an object with your endpoint as a method
 - Your endpoint should take a callback and pass the value to it
+- analog read => celsius formula  ```((analog * 0.004882814) - 0.5) * 100``` for the TMP36
 
 ## Docs
 

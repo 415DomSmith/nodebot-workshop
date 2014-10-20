@@ -5,7 +5,11 @@ __Attach a motor to pin 9 and start it spinning!__
 * Start it spinning again after another second
 * Ensure this loop repeats infinitely
 
+note : we will use a bjt npn type transistor for this circuit, they are common in starter kits (P2N2222AG, BC547), other type of transistor exists but may require different wiring.
+
 Hint: You could use the motor `start` and `stop` events to stop/start the motor.
+
+check what type of transistor you have by googleling it's reference.
 
 ## Circuit diagram
 
@@ -13,7 +17,7 @@ Hint: You could use the motor `start` and `stop` events to stop/start the motor.
                      ----o  GND
                      |
             330    |>
-Pin 9  o---/\/\/---|  Transistor
+Pin 9  o---/\/\/---|   NPN Transistor
                    |\
                      |
                      |
@@ -31,6 +35,7 @@ Pin 9  o---/\/\/---|  Transistor
 ## Components
 
 - Motor - http://node-ardx.org/electronics-primer#dcmotor
+- bjt npn transistor - http://node-ardx.org/electronics-primer#transistor
 
 > Spins when a current is passed through it.
 
